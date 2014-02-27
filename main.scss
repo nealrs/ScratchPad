@@ -1,0 +1,217 @@
+/* =============================================================================
+   buttons via Lee Munroe's Nice CSS3 Button - Reusable CSS3 buttons for SASS
+   ========================================================================== */
+
+
+/* Define the color you want your button to be */
+$b1c: #0074D9;
+$b2c: #2ECC40;
+$b3c: #FF4136;
+
+body{
+
+	text-align:center;
+	margin-top:30px;
+	background:#DDDDDD;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.foot{
+	color:#111111;
+}
+
+a {
+	text-decoration:none;
+	color:#111111;
+}
+
+a:hover {
+	color:#0074D9;
+}
+
+.tarea{
+	width:100%;
+	max-width: 600px;
+	height: 300px;
+
+	display:inline-block;
+	padding:.625em 1.25em;
+	margin:0 0 10px 0;
+
+
+	/* Rounded corners */
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+
+	/* Text */
+	/*text-shadow:1px 1px 0 rgba(0,0,0,.2);*/
+	text-align:left;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size:1em;
+}
+
+/* Style the button */   
+.b1{
+	
+	/* Make it a button */
+	display:inline-block;
+	padding:.625em 1.25em;
+	margin:0 0 10px 0;
+	cursor:pointer;
+
+	/* Colors */
+	background-color:$b1c;
+	background-image: -moz-linear-gradient(top, $b1c, darken($b1c,15%));
+	background-image: -webkit-linear-gradient(top, $b1c, darken($b1c,15%));
+	background-image: -ms-linear-gradient(top, $b1c, darken($b1c,15%));
+	background-image: linear-gradient(top, $b1c, darken($b1c,15%));
+	border:1px solid darken($b1c,20%);
+	
+	/* Text */
+	color:#fff;
+	text-shadow:1px 1px 0 rgba(0,0,0,.2);
+	text-align:center;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size:1em;
+	
+	/* Rounded corners */
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	
+	/* Shadows */
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	-ms-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+  
+	&:hover,&:focus{
+		background-image: -moz-linear-gradient(top, darken($b1c,5%), darken($b1c,20%));
+		background-image: -webkit-linear-gradient(top, darken($b1c,5%), darken($b1c,20%));
+		background-image: -ms-linear-gradient(top, darken($b1c,5%), darken($b1c,20%));
+		background-image: linear-gradient(top, darken($b1c,5%), darken($b1c,20%));
+	}
+	
+	&:active{
+		background:darken($b1c,10%);
+		-webkit-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		-moz-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		-ms-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		position:relative;
+		top:1px;
+	}
+	
+}
+
+.b2{
+	
+	/* Make it a button */
+	display:inline-block;
+	padding:.625em 1.25em;
+	margin:0 0 10px 0;
+	cursor:pointer;
+
+	/* Colors */
+	background-color:$b2c;
+	background-image: -moz-linear-gradient(top, $b2c, darken($b2c,15%));
+	background-image: -webkit-linear-gradient(top, $b2c, darken($b2c,15%));
+	background-image: -ms-linear-gradient(top, $b2c, darken($b2c,15%));
+	background-image: linear-gradient(top, $b2c, darken($b2c,15%));
+	border:1px solid darken($b2c,20%);
+	
+	/* Text */
+	color:#fff;
+	text-shadow:1px 1px 0 rgba(0,0,0,.2);
+	text-align:center;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size:1em;
+	
+	/* Rounded corners */
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	
+	/* Shadows */
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	-ms-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+  
+	&:hover,&:focus{
+		background-image: -moz-linear-gradient(top, darken($b2c,5%), darken($b2c,20%));
+		background-image: -webkit-linear-gradient(top, darken($b2c,5%), darken($b2c,20%));
+		background-image: -ms-linear-gradient(top, darken($b2c,5%), darken($b2c,20%));
+		background-image: linear-gradient(top, darken($b2c,5%), darken($b2c,20%));
+	}
+	
+	&:active{
+		background:darken($b2c,10%);
+		-webkit-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		-moz-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		-ms-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		position:relative;
+		top:1px;
+	}
+	
+}
+
+.b3{
+	
+	/* Make it a button */
+	display:inline-block;
+	padding:.625em 1.25em;
+	margin:0 0 10px 0;
+	cursor:pointer;
+
+	/* Colors */
+	background-color:$b3c;
+	background-image: -moz-linear-gradient(top, $b3c, darken($b3c,15%));
+	background-image: -webkit-linear-gradient(top, $b3c, darken($b3c,15%));
+	background-image: -ms-linear-gradient(top, $b3c, darken($b3c,15%));
+	background-image: linear-gradient(top, $b3c, darken($b3c,15%));
+	border:1px solid darken($b3c,20%);
+	
+	/* Text */
+	color:#fff;
+	text-shadow:1px 1px 0 rgba(0,0,0,.2);
+	text-align:center;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size:1em;
+	
+	/* Rounded corners */
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	
+	/* Shadows */
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	-ms-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 1px rgba(0,0,0,.2);
+  
+	&:hover,&:focus{
+		background-image: -moz-linear-gradient(top, darken($b3c,5%), darken($b3c,20%));
+		background-image: -webkit-linear-gradient(top, darken($b3c,5%), darken($b3c,20%));
+		background-image: -ms-linear-gradient(top, darken($b3c,5%), darken($b3c,20%));
+		background-image: linear-gradient(top, darken($b3c,5%), darken($b3c,20%));
+	}
+	
+	&:active{
+		background:darken($b3c,10%);
+		-webkit-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		-moz-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		-ms-box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		box-shadow:inset 0 1px 10px rgba(0,0,0,.2);
+		position:relative;
+		top:1px;
+	}
+	
+}
+

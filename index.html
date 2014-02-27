@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>ScratchPad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="main.css" rel="stylesheet">
+  <!-- buttons courtesy of Lee Munroe's https://github.com/leemunroe/nice-button-->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <script src="localforage.min.js"></script>
+  <script> 
+    // promise functions for localForage functions
+    function onSave(value){
+	  console.log("Text saved: "+value);
+	}
+
+	function onRevert(value){
+	  console.log("Text retreived: "+value);
+	  document.getElementById("text").value=value;
+	}
+	
+	// revert, save, and clear functions using localForage
+	function rText(){
+	  localforage.getItem('savedText').then(onRevert);
+	}
+
+	function sText(){
+	  x = document.getElementById("text").value;
+	  localforage.setItem('savedText', x).then(onSave);
+	}
+
+	function cText(){
+	  document.getElementById("text").value="";
+	  console.log("Text cleared");
+	}
+  </script>
+</head>
+<body>
+  <textarea id="text" class="tarea" placeholder="Enter text, save it, clear it, and revert it!"></textarea><br/><br/>
+
+  <a class="b1" onclick="rText()">Revert</a>&nbsp;&nbsp;
+  <a class="b2" onclick="sText()">Save</a>&nbsp;&nbsp;
+  <a class="b3" onclick="cText()">Clear</a>
+
+  <h3 class="foot">&copy; 2014 <a href="http://nealshyam.com" target="blank" title="Neal Shyam">Neal Shyam</a> <a href="http://github.com/nealrs" target="blank" title="GitHub"><i class="fa fa-fw fa-github-alt"></i></a>&nbsp;<a href="http://linkedin.com/in/nealrs" target="blank" title="LinkedIn"><i class="fa fa-fw fa-linkedin"></i></a>&nbsp;<a href="http://twitter.com/nealrs" target="blank" title="Twitter"><i class="fa fa-fw fa-twitter"></i></h3></p>
+
+</body>
+</html>

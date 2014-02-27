@@ -1,0 +1,167 @@
+/* =============================================================================
+   buttons via Lee Munroe's Nice CSS3 Button - Reusable CSS3 buttons for SASS
+   ========================================================================== */
+/* Define the color you want your button to be */
+body {
+  text-align: center;
+  margin-top: 30px;
+  background: #DDDDDD;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+.foot {
+  color: #111111; }
+
+a {
+  text-decoration: none;
+  color: #111111; }
+
+a:hover {
+  color: #0074D9; }
+
+.tarea {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  display: inline-block;
+  padding: .625em 1.25em;
+  margin: 0 0 10px 0;
+  /* Rounded corners */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  /* Text */
+  /*text-shadow:1px 1px 0 rgba(0,0,0,.2);*/
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em; }
+
+/* Style the button */
+.b1 {
+  /* Make it a button */
+  display: inline-block;
+  padding: .625em 1.25em;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+  /* Colors */
+  background-color: #0074d9;
+  background-image: -moz-linear-gradient(top, #0074d9, #004b8c);
+  background-image: -webkit-linear-gradient(top, #0074d9, #004b8c);
+  background-image: -ms-linear-gradient(top, #0074d9, #004b8c);
+  background-image: linear-gradient(top, #0074d9, #004b8c);
+  border: 1px solid #003d73;
+  /* Text */
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  /* Rounded corners */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  /* Shadows */
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .b1:hover, .b1:focus {
+    background-image: -moz-linear-gradient(top, #0066c0, #003d73);
+    background-image: -webkit-linear-gradient(top, #0066c0, #003d73);
+    background-image: -ms-linear-gradient(top, #0066c0, #003d73);
+    background-image: linear-gradient(top, #0066c0, #003d73); }
+  .b1:active {
+    background: #0059a6;
+    -webkit-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 1px; }
+
+.b2 {
+  /* Make it a button */
+  display: inline-block;
+  padding: .625em 1.25em;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+  /* Colors */
+  background-color: #2ecc40;
+  background-image: -moz-linear-gradient(top, #2ecc40, #208e2c);
+  background-image: -webkit-linear-gradient(top, #2ecc40, #208e2c);
+  background-image: -ms-linear-gradient(top, #2ecc40, #208e2c);
+  background-image: linear-gradient(top, #2ecc40, #208e2c);
+  border: 1px solid #1b7926;
+  /* Text */
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  /* Rounded corners */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  /* Shadows */
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .b2:hover, .b2:focus {
+    background-image: -moz-linear-gradient(top, #29b739, #1b7926);
+    background-image: -webkit-linear-gradient(top, #29b739, #1b7926);
+    background-image: -ms-linear-gradient(top, #29b739, #1b7926);
+    background-image: linear-gradient(top, #29b739, #1b7926); }
+  .b2:active {
+    background: #25a233;
+    -webkit-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 1px; }
+
+.b3 {
+  /* Make it a button */
+  display: inline-block;
+  padding: .625em 1.25em;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+  /* Colors */
+  background-color: #ff4136;
+  background-image: -moz-linear-gradient(top, #ff4136, #e90d00);
+  background-image: -webkit-linear-gradient(top, #ff4136, #e90d00);
+  background-image: -ms-linear-gradient(top, #ff4136, #e90d00);
+  background-image: linear-gradient(top, #ff4136, #e90d00);
+  border: 1px solid #cf0b00;
+  /* Text */
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  /* Rounded corners */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  /* Shadows */
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .b3:hover, .b3:focus {
+    background-image: -moz-linear-gradient(top, #ff291d, #cf0b00);
+    background-image: -webkit-linear-gradient(top, #ff291d, #cf0b00);
+    background-image: -ms-linear-gradient(top, #ff291d, #cf0b00);
+    background-image: linear-gradient(top, #ff291d, #cf0b00); }
+  .b3:active {
+    background: #ff1103;
+    -webkit-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 1px; }
