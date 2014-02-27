@@ -2,4 +2,4 @@
 
 **[Demo here](http://nealrs.github.io/ScratchPad/)**
 
-MIT licensed & feedback welcome
+![ScratchPad screenshot](ss.png "ScratchPad screenshot")
